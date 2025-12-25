@@ -1,0 +1,3 @@
+hostname lama : kali
+hostname baru : daffa-lab
+COMMAND : hostnamectl set-hostname {Name}

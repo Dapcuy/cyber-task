@@ -1,0 +1,11 @@
+grep digunakan untuk mencari teks (pattern) di dalam file atau output command
+- grep -i Ignore case (tidak membedakan huruf besar/kecil)
+- grep -v Invert match (menampilkan yang tidak mengandung pattern)
+- grep -n Menampilkan nomor baris
+
+cut Digunakan untuk mengambil kolom tertentu dari teks.
+awk lebih kuat daripada cut, bisa untuk logika, perhitungan, dan formatting.
+sort Digunakan untuk mengurutkan teks
+uniq Digunakan untuk menghapus duplikasi, tapi harus sudah di-sort.
+wc = word count
+Pipe "|" digunakan untuk mengalirkan output ke command berikutnya

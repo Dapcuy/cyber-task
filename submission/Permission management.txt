@@ -1,0 +1,49 @@
+Arti permission 600
+
+Permission Linux dibagi menjadi 3 kelompok:
+
+Digit	Untuk
+1️⃣	Owner (pemilik file)
+2️⃣	Group
+3️⃣	Others (user lain)
+Nilai angka:
+Angka	Arti
+4	read (r)
+2	write (w)
+1	execute (x)
+Breakdown 600
+6  0  0
+
+Owner = 6 → 4 + 2
+
+✅ read (r)
+
+✅ write (w)
+
+❌ execute (x)
+
+Group = 0
+
+❌ read
+
+❌ write
+
+❌ execute
+
+Others = 0
+
+❌ read
+
+❌ write
+
+❌ execute
+
+Kesimpulan sederhana
+
+Permission 600 berarti:
+
+📄 Hanya pemilik file yang bisa membaca & menulis
+
+🚫 User lain tidak punya akses sama sekali
+
+🔒 Cocok untuk file sensitif (report, credential, key)
